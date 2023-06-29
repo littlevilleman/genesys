@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb6a5d8ac3a3a94fbb11a37eadd6f0b, type: 3}
+  m_Name: Restauration
+  m_EditorClassIdentifier: 
+  cardName: Restauration
+  description: 
+  manaCost: 3
+  picture: {fileID: 740167303, guid: 462156cfd0fd0c04cafc2ef621df3c99, type: 3}
+  targetType: 2
+  sourceLocations:
+    formationLocation:
+      one: 0
+      two: 1
+      three: 1
+      four: 0
+    faction: 0
+  targetLocations:
+  - formationLocation:
+      one: 1
+      two: 1
+      three: 1
+      four: 1
+    faction: 0
+  - formationLocation:
+      one: 0
+      two: 0
+      three: 0
+      four: 0
+    faction: 1
+  multiTarget: 1
+  actions:
+  - {fileID: 11400000, guid: d3e7810400b466140ae188f9f8946ba6, type: 2}

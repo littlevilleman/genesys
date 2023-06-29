@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb6a5d8ac3a3a94fbb11a37eadd6f0b, type: 3}
+  m_Name: Slash
+  m_EditorClassIdentifier: 
+  cardName: Slash
+  description: 
+  manaCost: 1
+  picture: {fileID: -226598552, guid: 462156cfd0fd0c04cafc2ef621df3c99, type: 3}
+  targetType: 0
+  sourceLocations:
+    formationLocation:
+      one: 1
+      two: 0
+      three: 0
+      four: 0
+    faction: 0
+  targetLocations:
+  - formationLocation:
+      one: 0
+      two: 0
+      three: 0
+      four: 0
+    faction: 0
+  - formationLocation:
+      one: 0
+      two: 0
+      three: 1
+      four: 1
+    faction: 1
+  multiTarget: 0
+  actions:
+  - {fileID: 11400000, guid: cecd0adebeda44d45b340997a831b33c, type: 2}

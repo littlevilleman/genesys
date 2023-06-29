@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf74b8600315c143a331e92810e6dbe, type: 3}
+  m_Name: Skeleton
+  m_EditorClassIdentifier: 
+  id: 0
+  name: Skeleton
+  portrait: {fileID: -401782914, guid: a633136adf0afea48a027fc4e96e1792, type: 3}
+  animator: {fileID: 9100000, guid: 2a24c0ba5ddcf61468eb0f74da06d398, type: 2}
+  baseStats:
+    strenght: 3
+    speed: 2
+    spirit: 3
+    mind: 1
+  traits: []
+  cards: []

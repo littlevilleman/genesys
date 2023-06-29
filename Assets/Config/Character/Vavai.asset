@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf74b8600315c143a331e92810e6dbe, type: 3}
+  m_Name: Vavai
+  m_EditorClassIdentifier: 
+  id: 1
+  name: Vavai
+  baseStats:
+    strenght: 2
+    speed: 4
+    spirit: 1
+    mind: 3
+  traits:
+  - {fileID: 11400000, guid: f3e024bcf9ee97e43ba089298b58b592, type: 2}
+  cards:
+  - {fileID: 11400000, guid: e67278acd30d50746aeddb160d151417, type: 2}
